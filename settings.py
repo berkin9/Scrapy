@@ -14,10 +14,10 @@ NEWSPIDER_MODULE = "stack.spiders"
 
 ITEM_PIPELINES = ['stack.pipelines.MongoDBPipeline', ]
 
-MONGODB_SERVER = "localhost"
+MONGODB_SERVER = "smartmaple"
 MONGODB_PORT = 27017
 MONGODB_DB = "berkin"
-MONGODB_COLLECTION = "books"
+MONGODB_COLLECTION = "kitapyurdu"
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "stack (+http://www.yourdomain.com)"
 
