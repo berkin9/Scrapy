@@ -12,7 +12,9 @@ BOT_NAME = "stack"
 SPIDER_MODULES = ["stack.spiders"]
 NEWSPIDER_MODULE = "stack.spiders"
 
-ITEM_PIPELINES = ['stack.pipelines.MongoDBPipeline', ]
+ITEM_PIPELINES = {
+  "mongodb_crawler.pipelines.MongoDBPipeline": 500
+}
 
 MONGODB_SERVER = "smartmaple"
 MONGODB_PORT = 27017
