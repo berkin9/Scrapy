@@ -1,7 +1,7 @@
 import scrapy
 from scrapy import Spider
 from scrapy.selector import Selector
-from stack.items import StackItem
+from scrapy.item import StackItem
 from pathlib import Path
 
 class StackSpider(Spider):
