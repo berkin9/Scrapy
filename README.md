@@ -20,9 +20,11 @@
 
 AÇIKLAMA:
 
-	Python programlama dilinde, scrapy, pymongo vb. kütüphaneleri kullanarak bir web kazıma uygulaması geliştirdim. Uygulamam, kitapyurdu.com web sitesi üzerindeki kitapların; yazar, başlık, yayıncı ve fiyat bilgilerini kazıyor.
+	Python programlama dilinde, scrapy, pymongo vb. kütüphaneleri kullanarak bir web kazıma uygulaması geliştirdim. 
+ Uygulamam, kitapyurdu.com web sitesi üzerindeki kitapların; yazar, başlık, yayıncı ve fiyat bilgilerini kazıyor.
 
-	Aynı zamanda, kazıdığı bu bilgileri pymongo kütüphanesi sayesinde bir mongo veritabanına kaydediyor. Bu özelliğe uygulumamız çalışırken, yerel sunucunuz üzerinden "localhost/27017" adresini girerek görütüleyebilirsiniz.
+	Aynı zamanda, kazıdığı bu bilgileri pymongo kütüphanesi sayesinde bir mongo veritabanına kaydediyor. 
+ Bu özelliğe uygulumamız çalışırken, yerel sunucunuz üzerinden "localhost/27017" adresini girerek görütüleyebilirsiniz.
 
 
 
